@@ -26,7 +26,7 @@ namespace MiniExplorer
 
         List<FileInfo> checkFilesTime(List<FileInfo> recentlyFiles)
         {
-            foreach (var file in recentlyFiles)
+            foreach (var file in recentlyFiles.ToArray())
             {
                 var currentTime = DateTime.Now;
                 
@@ -105,8 +105,14 @@ namespace MiniExplorer
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
             recentlyOpenedFiles =  checkFilesTime(recentlyOpenedFiles);
-            
-            
+
+            using (var sw = new StreamWriter("C:\\Users\\dimas\\OneDrive\\Рабочий стол\\MiniExplorerFiles.txt"))
+            {
+                foreach (var file in recentlyOpenedFiles)
+                {
+                    sw.WriteLine(file.FullName + "\t" + file.LastAccessTime);
+                }
+            }
         }
     }
 }
