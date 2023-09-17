@@ -1,0 +1,16 @@
+C:\Users\dimas\RiderProjects\MiniExplorer\bin\Debug\MiniExplorer.exe.config
+C:\Users\dimas\RiderProjects\MiniExplorer\bin\Debug\MiniExplorer.exe
+C:\Users\dimas\RiderProjects\MiniExplorer\bin\Debug\MiniExplorer.pdb
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.csproj.AssemblyReference.cache
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.csproj.SuggestedBindingRedirects.cache
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MainWindow.g.cs
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\App.g.cs
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer_MarkupCompile.cache
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer_MarkupCompile.lref
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MainWindow.baml
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.g.resources
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.Properties.Resources.resources
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.csproj.GenerateResource.cache
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.csproj.CoreCompileInputs.cache
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.exe
+C:\Users\dimas\RiderProjects\MiniExplorer\obj\Debug\MiniExplorer.pdb

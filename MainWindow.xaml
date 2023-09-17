@@ -1,0 +1,33 @@
+﻿<Window x:Class="MiniExplorer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniExplorer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions> 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Диски" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 0 10" FontSize="20" Name="Title"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Дирректории" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 0 10" FontSize="20"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Файлы" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 0 10" FontSize="20"></TextBlock>
+        <ComboBox Grid.Column="0" Grid.Row="1" Height="50" Margin="5 0" Name="ChooseDisk" FontSize="16" SelectionChanged="ChooseDisk_OnSelectionChanged"></ComboBox>
+        <Border Grid.Row="1" Grid.Column="1" Grid.RowSpan="2">
+            <ListBox Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Name="Dirs" SelectionChanged="Dirs_OnSelectionChanged"></ListBox>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="2" Grid.RowSpan="2">
+            <ListBox Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" Name="Files" SelectionChanged="Files_OnSelectionChanged"></ListBox>
+        </Border>
+        <Button Grid.Row="3" Grid.Column="0" Margin="30" Content="Записать файлы" Click="ButtonBase_OnClick"></Button>
+    </Grid>
+</Window>
